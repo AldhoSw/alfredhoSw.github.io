@@ -1,0 +1,281 @@
+/* Style untuk body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    background-color:antiquewhite;
+}
+/* Dekstop NAV */
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  align-items: center;
+  height: 16vh;
+  background-color: rgb(6, 104, 190);
+}
+
+.nav-links {
+  margin: 0;
+  padding-left: 50vh;
+  gap: 1.5rem;
+  list-style: none;
+  font-size: 1.5rem;
+  
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.header{
+  padding: 1vh;
+  margin: 0%;
+}
+
+.logo1{
+  width: 12vh;
+  height: 12vh;
+  margin-left:10vh ;
+  padding: 0%;
+}
+
+.logo2{
+  margin: 0%;
+  color: #ddd;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+/* Style untuk header */
+section {
+    padding-top: 0vh;
+    margin: 0 35vh;
+    box-sizing: border-box;
+    min-height: fit-content;
+    
+}
+  
+.section-container {
+    display: flex;
+}
+
+.section__text {
+  border-radius: 1.5vh;
+  border: solid 1px;
+  background-color: rgb(219, 208, 194);
+  align-self: center;
+  text-align: center;
+
+}
+  
+.section__text p {
+    font-weight: 600;
+}
+  
+.section__text__p1 {
+    text-align: center;
+    font-size: 1.25rem;
+  
+}
+  
+.section__text__p2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+.section__text__p3{
+text-align: justify;
+font-size: 1.25rem;
+}
+  
+.title {
+    font-size: 3rem;
+    text-align: center;
+    margin: auto 0;
+}
+strong {
+  text-align: center;
+  font-weight:bold;
+  display: block;
+  font-size: 2rem;
+}
+
+.strong_text{
+  text-align: center;
+  font-size: 20px;
+}
+.strong_text_li{
+  text-align: justify;
+  font-size: 20px;
+}
+
+/* Style untuk konten */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border: none;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+/* Style untuk gambar */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Style untuk link kembali */
+a.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Galeri */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/*kontak*/
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(0, 0, 0);
+  background:rgb(6, 104, 190);
+  margin: 2rem auto;
+  padding: 0.5rem;
+  
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+  
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+
+/*About*/
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display:flexbox ;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.details-container {
+  padding: 0.5rem;
+  flex: 1;
+  background: none;
+  border-radius: 5rem;
+  width: 200px;
+  margin-left: 12rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 1rem;
+  height: 50%;
+}
+
+.section__pic-container {
+  height: 480px;
+  width: 20rem;
+  margin-left: 10px;
+}
+
+table {
+  width: 675px;
+}
+
+.LI{
+  width: 50px;
+  height: 50px;
+}
